@@ -1,0 +1,30 @@
+  616  grep -c Orchidaceae spawannxs.txt 
+  617  grep Falco spawannxs.txt 
+  618  grep -i Falco spawannxs.txt 
+  619  grep -i -w ara spawannxs.txt 
+  620  grep -i -w -A 1 ara spawannxs.txt 
+  621  grep -i -w -n ara spawannxs.txt 
+  622  grep -i -w -v ara spawannxs.txt 
+  623  history | tail -n 30 > For_Daniel_grep.txt
+  624  mkdir TestFind
+  625  cd TestFind/
+  626  mkdir -p Dir1/Dir11/Dir111
+  627  mkdir Dir2
+  628  mkdir Dir3
+  629  tocuh Dir1/File1.txt
+  630  touch Dir1/File1.txt
+  631  touch Dir1/File1.csv
+  632  touch Dir1/File1.tex
+  633  touch Dir2/File2.txt
+  634  touch Dir2/File2.csv
+  635  touch Dir2/File2.tex
+  636  touch Dir1/Dir11/Dir111/File111.txt
+  637  touch Dir3/File.txt
+  638  find . -name "File1.txt"
+  639  find . -name "*.txt"
+  640  find -maxdepth 2 -name "*.txt"
+  641  find -maxdepth 2 -not -name "*.txt"
+  642  find . -type d
+  643  find . -type f -exec ls -s () \; | sort -n | head -10
+  644  find . -type f -exec ls -s {} \; | sort -n | head -10
+  645  history | tail -n 30 > For_Daniel_find.txt

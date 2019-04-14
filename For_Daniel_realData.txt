@@ -1,0 +1,50 @@
+  539  ls -r -F
+  540  nano Due_4-15-19.md
+  541  qrsh
+  542  cd ~
+  543  ls
+  544  cd introscicomp2014/
+  545  ls
+  546  cd UNIX/
+  547  ls
+  548  cd Data
+  549  head -n 264 otoos10.txt | tail -n+13900 otoos10.txt > darwin.txt
+  550  wc -c -i evol*
+  551  wc -c evol*
+  552  wc -c evol* darwin.txt
+  553  wc -c natural selection darwin.txt | wc -c Wallace darwin.txt
+  554  grep -i -w "evol*" darwin.txt
+  555  grep -i -w "evol*" darwin.txt | wc -l
+  556  grep -i -w evolution darwin.txt
+  557  grep -i -w evolution darwin.txt > grep .txt
+  558  grep -i -w evolution darwin.txt > grep.txt
+  559  less grep.txt
+  560  rm grep.txt
+  561  grep evolution darwin.txt | wc -1
+  562  grep evolution darwin.txt | wc -l
+  563  rm darwin.txt
+  564  head -n 264 otoos10.txt | tail -n+13900 otoos10.txt > darwin.txt
+  565  less darwin.txt 
+  566  wc darwin.txt
+  567  rm darwin.txt
+  568  head -n 264 otoos10.txt | tail -n+13900 otoos10.txt >> darwin.txt
+  569  wc darwin.txt 
+  570  rm darwin.txt 
+  571  head -n 264 otoos10.txt >> darwin.txt
+  572  tail -n+13900 otoos10.txt >> darwin.txt
+  573  wc darwin.txt 
+  574  grep -i -w "evolution" darwin.txt 
+  575  grep -i -w "evolution" darwin.txt | wc -l
+  576  grep -i -w "Wallace" darwin.txt | wc -1
+  577  grep -i -w "Wallace" darwin.txt | wc -l
+  578  grep -i -w "natural selection" darwin.txt | wc -l
+  579  grep -i -w ""evolved" darwin.txt | wc -l
+  580  cd Temperatures/
+  581  ls
+  582  grep TMAX 180[0-3] | grep 18000101
+  583  qrsh
+  584  grep 180[0-3]0101,TMAX 180[0-3].csv
+  585  touch command-Darwin.txt
+  586  nano command-Darwin.txt 
+  587  grep TMAX 1800.csv | cut -d -f 4 1800.csv | sort -r -n | head -n 1
+  588  history | tail -n 50 > For_Daniel_realData.txt
